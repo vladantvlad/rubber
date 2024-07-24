@@ -1,0 +1,138 @@
+@import "./reset.css";
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.conteiner {
+  background: #fff;
+  width: 100vw;
+  max-width: 1800px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #03294F;
+}
+
+.sale-card {
+  width: 70%;
+  height: 70%;
+  background-color:#FAF8F1;
+  border-radius: 50px;
+  padding: 2% 10% 2% 10%;
+  box-shadow: 0px 0px 10px 20px rgba(0, 0, 0, 0.1)
+}
+
+.sale-card__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sale-card__header_logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sale-card__header_references {
+  color: #03294F;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.sale-card__header_right img {
+  height: 60px;
+  cursor: pointer;
+}
+
+.sale-card__main {
+  margin: 0 0 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.sale-card__main_left {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.sale-card__main_left p {
+  font-size: 1.5rem;
+}
+
+.sale-card__main_left button {
+  width: 300px;
+  height: 80px;
+  border-radius: 50px;
+  background-color: #03294F;
+  font-size: 2em;
+  font-weight: 500;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.sale-card__main img {
+  width: 60%;
+}
+
+@media (max-width: 1400px) {
+    
+    html {
+          font-size: 14px;
+    }
+}
+
+@media (max-width: 1200px) {
+    
+    html {
+          font-size: 12px;
+    }
+    
+    .sale_card__main_left {
+          gap: 30px;
+    }
+
+    .sale_card__main_left button {
+          width: 250px;
+          height: 70px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    html {
+          font-size: 10px;
+    }
+    
+    .sale_card__main_left {
+          gap: 20px;
+    }
+
+    .sale_card__main_left button {
+          width: 220px;
+          height: 60px;
+    }
+}
+
+
+@media (max-width: 1000px) {
+
+    html {
+          font-size: 8px;
+    }
+
+}
